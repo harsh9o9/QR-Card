@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  min-height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,12 +44,17 @@ body {
 }
 .qr-card-title {
   color: var(--Dark-blue);
-  font-size: 19px;
+  font-size: 1.15rem;
   font-weight: 700;
 }
 
 .qr-card-desc {
   color: var(--Grayish-blue);
-  font-size: 14px;
+  font-size: 1rem;
   padding-bottom: 1rem;
+}
+
+.attribution {
+  text-align: center;
+  word-spacing: 0.1rem;
 }
